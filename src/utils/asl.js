@@ -1,10 +1,10 @@
 /**
  * asl.js — ML-powered ASL letter + gesture detection
  *
- * Letter mode:  MLP trained on your hand data (99.3% accuracy)
- * Gesture mode: MLP trained on your gesture data (99.3% accuracy)
+ * Letter mode:  MLP trained on your hand data (92.3% accuracy)
+ * Gesture mode: MLP trained on your gesture data (94.3% accuracy)
  *
- * Pure JS matrix math — no TF.js, no dependencies
+ * Pure JS matrix math for super lightweight inference — no TensorFlow or ONNX dependencies!
  */
 
 // ─── Model state ──────────────────────────────────────────────────────────────
