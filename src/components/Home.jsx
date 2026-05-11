@@ -103,8 +103,7 @@ export default function Home({ onNavigate }) {
           {[
             ['80+', 'Objects Detected', '0.1s'],
             ['26', 'ASL Letters', '0.2s'],
-            ['3', 'Languages', '0.3s'],
-            
+            ['24', 'Gestures', '0.25s'],
           ].map(([num, label, delay]) => (
             <div key={label} className="stat-item" style={{ animationDelay: delay, textAlign: 'center' }}>
               <div style={{ fontFamily: "'Syne', sans-serif", fontSize: 28, fontWeight: 800, color: '#0f172a', lineHeight: 1 }}>{num}</div>
@@ -141,7 +140,7 @@ export default function Home({ onNavigate }) {
                 fontSize: 26, boxShadow: '0 4px 14px rgba(59,130,246,0.35)',
               }}>👁️</div>
               <span className="tag-pill" style={{ background: '#eff6ff', color: '#2563eb', border: '1px solid #bfdbfe' }}>
-                CoCO-SSD
+                COCO-SSD
               </span>
             </div>
 
