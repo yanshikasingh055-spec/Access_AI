@@ -48,7 +48,7 @@ SignSpeak uses **MediaPipe Hands** and a custom-trained **MLP neural network** t
 ### Features
 - **Letter mode** — Finger-spell A–Z, builds words letter by letter
 - **Gesture mode** — Recognizes 23 everyday gestures across 4 categories
-- **99.3% accuracy** on both letters and gestures — trained on real hand data
+- **91.3% accuracy** on both letters and gestures — trained on real hand data
 - **Text-to-speech** — every recognized letter and gesture is spoken aloud
 - **Hold-to-confirm** — requires holding a sign steady for ~1 second to avoid false positives
 - **Virtual keyboard** — manual fallback for letters that are hard to sign
