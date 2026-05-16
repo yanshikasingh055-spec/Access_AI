@@ -4,11 +4,25 @@
     <meta charset="UTF-8" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AccessAI — Accessibility Platform</title>
+    <meta name="description" content="AccessAI — Free AI-powered accessibility tools for visually impaired and deaf users. Runs entirely in your browser." />
+    <title>AccessAI — AI Accessibility Platform</title>
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
-    <!-- No global model scripts — both TF.js and MediaPipe load lazily inside each tool -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+
+    <!-- Cabinet Grotesk via CDN (for display headings) -->
+    <style>
+      @font-face {
+        font-family: 'Cabinet Grotesk';
+        src: url('https://fonts.cdnfonts.com/s/61139/CabinetGrotesk-Variable.woff2') format('woff2');
+        font-weight: 100 900;
+        font-display: swap;
+      }
+    </style>
+
+    <!-- No global model scripts — TF.js and MediaPipe load lazily inside each tool -->
   </head>
   <body>
     <div id="root"></div>
